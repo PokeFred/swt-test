@@ -12,7 +12,7 @@ $ docker compose down
 
 ```
 Frontend
-https://127.0.0.1:3000/health
+http://127.0.0.1:3000/health
 
 Backend
 http://127.0.0.1:3001/health
