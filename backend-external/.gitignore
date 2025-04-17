@@ -1,0 +1,9 @@
+# IDE Stuff
+.idea/**
+.vscode/**
+
+# Folders
+.gradle/**
+build/**
+
+# Files

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
     public static void main(String[] args) {
-        System.out.println("Backend");
+        System.out.println("Backend-External");
         SpringApplication.run(App.class, args);
     }
 }
