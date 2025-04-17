@@ -1,8 +1,8 @@
-group = "de.pokefred.app"
+group = "de.gregor.swt"
 version = "1.0-SNAPSHOT"
 
 application {
-    mainClass = "de.pokefred.app.App"
+    mainClass = "de.gregor.swt.Application"
 }
 
 java {
