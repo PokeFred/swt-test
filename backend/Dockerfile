@@ -7,4 +7,4 @@ FROM amazoncorretto:24-alpine-jdk
 WORKDIR /app
 COPY --from=build /app/build/libs/*.jar /app
 EXPOSE 3001
-CMD ["java", "-jar", "test-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "backend-0.0.0.jar"]

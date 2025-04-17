@@ -1,5 +1,5 @@
 group = "de.gregor.swt"
-version = "1.0-SNAPSHOT"
+version = "0.0.0"
 
 application {
     mainClass = "de.gregor.swt.Application"
