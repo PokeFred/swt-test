@@ -14,6 +14,8 @@ services:
             dockerfile: ./Dockerfile
         ports:
           - "3001:3001"
+        networks:
+            - database
         restart: always
     backend-external:
         container_name: swt_backend_external
@@ -32,7 +34,12 @@ services:
             MYSQL_USER: "test"
             MYSQL_PASSWORD: "test"
         ports:
-            - "3306:3306"
+            - "3306:3306" # open for debugging
         volumes:
             - ./database:/docker-entrypoint-initdb.d
+        networks:
+            - database
         restart: always
+
+networks:
+    database:
